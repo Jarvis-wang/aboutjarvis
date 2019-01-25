@@ -15,9 +15,9 @@ To prove my skill about how to begin webpge development in Gethub.
 - [Notepad++] (https://notepad-plus-plus.org/download/v7.6.2.html)
 
 ##Recomeded Resourse
--[git] (https://git-scm.com/)
--[css] (https://www.w3schools.com/css/)
--[jQuery] (https://jquery.com/)
+- [git] (https://git-scm.com/)
+- [css] (https://www.w3schools.com/css/)
+- [jQuery] (https://jquery.com/)
 
 ##Contributors
 My name is Hongyang Wang you can call me Jarvis. I come from Dalin this is the image of my Hometown.
