@@ -1,0 +1,62 @@
+body{
+    
+        min-height: 75rem;
+        padding-top: 4.5rem;
+
+    font-family: "Major Mono Display", monospace;
+
+}
+h1{
+    border-style: solid;
+padding-top: 1em;
+padding-bottom: 1em;
+background-color:#677767;
+color: white
+}
+    
+.important{
+
+    color: palevioletred;
+
+}
+
+#myname{
+color: red
+}
+
+section{
+    margin: 1rem;
+    padding: 2rem;
+    background-color: lightblue;
+    border-radius: 2rem;
+    border-style: dashed;
+    width: 40rem;
+
+}
+
+.bgimg{
+    background-image: url(http://wowslider.com/sliders/demo-81/data1/images/redkite50498.jpg)
+    
+}
+footer{
+        float: right;
+        position:fixed;
+        bottom:0;
+     
+}
+#image{
+float:right;
+height:14rem;
+width:14rem;
+border-radius: 70%;
+}
+#links {
+    float:right;
+}
+.icon{
+    width:4rem;
+    height: auto;
+}
+.tg{
+    color: azure;
+}
