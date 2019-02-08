@@ -6,7 +6,7 @@
 - [Source](https://github.com/Jarvis-wang/aboutjarvis)
 
 ## About
-To prove my skill about how to begin webpge development in Gethub. find probelm about web development and enhance our skill.
+To prove my skill about how to begin webpge development in Gethub.
 
 ## Tools used
 
