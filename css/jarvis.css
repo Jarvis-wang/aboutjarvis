@@ -36,19 +36,18 @@ section{
 aside{
     margin: 1rem;
     padding: 2rem;
-    background-color: rgb(158, 177, 184);
+    background-color: lightblue;
     border-radius: 2rem;
     border-style: dashed;
+    
 }
-
 .bgimg{
-    height:100% ;
+    height: 100%;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-  
     
 }
 footer{

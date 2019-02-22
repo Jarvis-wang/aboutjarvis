@@ -48,3 +48,5 @@ document.getElementById('wiper').addEventListener('click', () => {
     localStorage.removeItem('wage')
     console.log('  Finished wiper click handler - localStorage entries removed')
   })
+
+  
