@@ -43,6 +43,10 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="calculate.html">calculate</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="qtest.html">qunit</a>
                 </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
@@ -88,7 +92,7 @@
 
                         </section>
 
-                        <section >
+                        <section>
                             <h2>plans</h2>
                             I am studaing data Science now. I holp I cna find a job about big data. after I get some
                             money then I can buy a farm.
@@ -149,23 +153,22 @@
                     </ul>
 
                     <div class="col-md-4">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/eRVKCagYcrc"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/eRVKCagYcrc" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div id="demo">
+                        <h2>hello word</h2>
+                        <button type="button" onclick="hello()">click to see</button>
+                    </div>
 
                 </div>
 
 
             </div>
         </div>
-        <div id="demo">       
-            <h2>hello word</h2>
-            <button type="button" onclick="loadDoc()">click to see</button>
-            </div>
-            
+
+
     </main>
     <br>
     <hr>
@@ -178,25 +181,28 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
         integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-        
-<script>
-    function loadDoc() {
-      var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-          document.getElementById("demo").innerHTML =
-          this.responseText;
+
+    <script>
+        function hello() {
+            
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("demo").innerHTML =
+                        this.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax.txt", true);
+            xhttp.send();
         }
-      };
-      xhttp.open("GET", "txt.txt", true);
-      xhttp.send();
-    }
     </script>
 </body>
+
+</html>
