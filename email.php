@@ -1,3 +1,4 @@
+
 <?php
 if(isset( $_POST['name']))
 $name = $_POST['name'];
@@ -12,4 +13,3 @@ $recipient = "s522652@nwmissouri.edu";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("something wrong!");
 echo "Thanks for your email!";
-?>

@@ -30,12 +30,25 @@ section{
     background-color: lightblue;
     border-radius: 2rem;
     border-style: dashed;
-    width: 40rem;
+   
 
+}
+aside{
+    margin: 1rem;
+    padding: 2rem;
+    background-color: rgb(158, 177, 184);
+    border-radius: 2rem;
+    border-style: dashed;
 }
 
 .bgimg{
-    background-image: url(http://wowslider.com/sliders/demo-81/data1/images/redkite50498.jpg)
+    height:100% ;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
     
 }
 footer{
